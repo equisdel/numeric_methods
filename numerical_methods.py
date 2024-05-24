@@ -1,4 +1,4 @@
-# This code implements three well known numeric methods 
+# This code implements three well known numerical methods 
 #   used to approximate a function from its derivative:
 #   1. Euler's Method
 #   2. Improved Euler's Method
@@ -17,7 +17,7 @@ import math
 
 # FUNCTIONS: derivative and its solution
 
-# y'(x): rate of change of pie's temperature (obtained analitically from given data at @@)
+# y'(x): rate of change of pie's temperature (obtained analitically from given data)
 def Y(x,y):
     k = - (math.log(11/17)) / 5
     return  - k * (y - 35)
